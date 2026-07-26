@@ -3,7 +3,7 @@
 A machine learning web app that detects whether a text message (SMS or Email) is **Spam** or **Not Spam**, built with **Scikit-Learn**, **NLTK**, and **Streamlit**.
 
 <p align="center">
-  <img src="assets/app_screenshot.png" alt="App Banner" width="700"/>
+  <img alt="App Banner" src="https://github.com/user-attachments/assets/74f36f53-0a08-4b3d-973a-40d0dd9c02d2" width="700"/>
 </p>
 
 <p align="center">
