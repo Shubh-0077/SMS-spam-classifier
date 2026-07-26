@@ -16,9 +16,7 @@ A machine learning web app that detects whether a text message (SMS or Email) is
 
 ## 🔗 Live Demo
 
-**Try it here 👉 [Live App on Streamlit Community Cloud](YOUR_STREAMLIT_APP_LINK_HERE)**
-
-> Replace the link above with your app's URL once it's deployed on [Streamlit Community Cloud](https://streamlit.io/cloud).
+**Try it here 👉 [Live DEMO](https://sms-spam-classifier01.streamlit.app/)**
 
 ---
 
