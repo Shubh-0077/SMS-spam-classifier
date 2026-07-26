@@ -5,6 +5,10 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
+nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)
+nltk.download("stopwords", quiet=True)
+
 # -------------------- PAGE CONFIG -------------------- #
 st.set_page_config(
     page_title="Spam Classifier",
