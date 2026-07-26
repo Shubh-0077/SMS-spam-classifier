@@ -15,8 +15,8 @@ st.set_page_config(
 # -------------------- LOAD MODEL -------------------- #
 @st.cache_resource
 def load_model():
-    tfidf = pickle.load(open("vectorizer.pkl", "rb"))
-    model = pickle.load(open("model.pkl", "rb"))
+    tfidf = pickle.load(open("models/vectorizer.pkl", "rb"))
+    model = pickle.load(open("models/model.pkl", "rb"))
     return tfidf, model
 
 tfidf, model = load_model()
