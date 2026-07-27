@@ -120,7 +120,7 @@ The model is trained on the **SMS Spam Collection Dataset** (`spam.csv`), which 
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/SMS-Spam-Classifier.git
+git clone https://github.com/Shubh-0077/SMS-Spam-Classifier.git
 cd SMS-Spam-Classifier
 
 # Create a virtual environment (recommended)
