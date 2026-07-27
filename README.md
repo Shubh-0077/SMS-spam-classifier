@@ -51,23 +51,28 @@ This project classifies SMS/Email messages as **Spam** or **Ham (Not Spam)** usi
 ```
 SMS-Spam-Classifier/
 │
-├── app.py                          # Streamlit web application
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project documentation
-├── .gitignore
+├── app.py                          # Streamlit application entry point
+├── requirements.txt                # Python package dependencies
+├── README.md                       # Project overview and setup instructions
+│
+├── assets/
+│   ├── spam.png                    # Spam prediction illustration
+│   ├── not_spam.png                # Ham (Not Spam) prediction illustration
+│   └── readme_banner.png           # Banner image for the GitHub README
+│
+├── data/
+│   └── spam.csv                    # Original SMS Spam Collection dataset
 │
 ├── models/
 │   ├── model.pkl                   # Trained Multinomial Naive Bayes model
-│   └── vectorizer.pkl              # Fitted TF-IDF vectorizer
+│   └── vectorizer.pkl              # Trained TF-IDF vectorizer
 │
-├── data/
-│   └── spam.csv                    # Raw SMS Spam Collection dataset
+├── nltk_data/
+│   └── nltk.txt                    # NLTK resources
 │
-├── notebooks/
-│   └── SMS-spam_classifier.ipynb   # EDA, preprocessing & model training notebook
-│
-└── assets/
-    └── app_screenshot.png          # App screenshots
+└── notebooks/
+    └── SMS-spam_classifier.ipynb   # Data preprocessing, EDA, feature engineering, model training, and evaluation
+
 ```
 
 ## 📊 Dataset
